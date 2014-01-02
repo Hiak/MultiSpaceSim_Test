@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShipParts>
+
+  <Part Type="Fuselage" Name="FuselageA">
+    
+    <Resource ID="0" src="Fuselages/FuselageA"/>
+
+    <Stat AttributeType="health" StatType="value" Value="50" />
+    <Stat AttributeType="ShieldPower" StatType="value" Value="100" />
+    <Stat AttributeType="Mass" StatType="value" Value="100" />
+    <Stat AttributeType="MaxSpeed" StatType="value" Value="333.333" />
+
+    <Stat AttributeType="health" StatType="multiplier" Value="1.493" />
+    
+    
+    <Joint DisplayName="Wings" Type="Wing">
+      <JointPosition ID="0" PositionName="LeftWingPos" />
+      <JointPosition ID="1" PositionName="RightWingPos" />
+    </Joint>
+
+    <Joint DisplayName="Engine" Type="Engine">
+      <JointPosition ID="0" PositionName="EnginePos" />
+    </Joint>
+    
+  </Part>
+
+  <Part Type="Fuselage" Name="FuselageB">
+
+    <Resource ID="0" src="Fuselages/FuselageB"/>
+
+    <Joint DisplayName="Wings" Type="Wing">
+      <JointPosition ID="0" PositionName="LeftWingPos" />
+      <JointPosition ID="1" PositionName="RightWingPos" />
+    </Joint>
+
+  </Part>
+
+  
+  
+  
+  <Part Type="Wing" Name="WingA">
+
+    <Resource ID="0" src="Wings/LeftWing"/>
+    <Resource ID="1" src="Wings/RightWing"/>
+    <Joint DisplayName="Engine Position" Type="Engine">
+      <JointPosition ID="0" PositionName="EnginePos_Left" />
+      <JointPosition ID="1" PositionName="EnginePos_Right" />     
+    </Joint>
+
+    <Joint DisplayName="Weapon Position" Type="Weapon">
+      <JointPosition ID="0" PositionName="WeaponPos_Left" />
+      <JointPosition ID="1" PositionName="WeaponPos_Right" />
+    </Joint>
+
+    <Stat AttributeType="health" StatType="value" Value="20" />
+    
+  </Part>
+
+  
+  
+  
+  <Part Type="Wing" Name="WingB">
+
+    <Resource ID="0" src="Wings/LeftWingB"/>
+    <Resource ID="1" src="Wings/RightWingB"/>
+    <Joint DisplayName="Engine Position" Type="Engine">
+      <JointPosition ID="0" PositionName="EnginePos_Left" />
+      <JointPosition ID="1" PositionName="EnginePos_Right" />
+    </Joint>
+    
+  </Part>
+
+  <Part Type="Engine" Name="EngineA">
+
+    <Resource ID="0" src="Engines/EngineA_Left"/>
+    <Resource ID="1" src="Engines/EngineA_Right"/>
+
+    <Stat AttributeType="EnginePower" StatType="value" Value="100000" />
+    <Stat AttributeType="RotationSpeed" StatType="value" Value="300" />
+    
+  </Part>
+  
+</ShipParts>

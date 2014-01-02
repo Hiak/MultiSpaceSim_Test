@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CameraInitScript" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAgAAAAEAAAQAQEgACAAAAAAAiAAAAAAAA=</HashCode>
+      <FileName>Assets\CameraInitScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuGUI" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACAACCAAAAAAAAAAIwAEAAAIAACCiAIAAEA=</HashCode>
+      <FileName>Assets\Menu\MenuGUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ServerBrowser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAEAACAAAAAQAgAAAAQAAAAAABAAAAADAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\ServerBrowser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShipPartVisual" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAASgiRAAAAABACAAQAEgAhAAAAAAAEgAAQ=</HashCode>
+      <FileName>Assets\Menu\ShipAssembly.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShipAssembly" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Ah4QEAAoAiBAAAAAgBAAAAQAAAgAAEAIAEACAEAAAAI=</HashCode>
+      <FileName>Assets\Menu\ShipAssembly.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="JointPosition">
+    <Position X="9" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAgAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Joint">
+    <Position X="6.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAgAAAAAAAAAgAAAAAAgQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipParts.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Positions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ShipPart">
+    <Position X="3.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAARgAAAAAAAgAAAAYAAAQAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipParts.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Joints" />
+      <Field Name="Res" />
+      <Field Name="Stats" />
+      <Field Name="Modifiers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Fuselage">
+    <Position X="1.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wing">
+    <Position X="4" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine">
+    <Position X="6.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraTarget" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Menu.GUI_Addons.ToggleButton" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAACgAAAAAAAAAEAgAAACAEAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\GUI_Addons\ToggleButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Menu.GUI_Addons.TreeViewNode">
+    <Position X="1.25" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAARAACQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\GUI_Addons\TreeView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="children" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assets.Menu.GUI_Addons.TreeView" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAgACAIAgIEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\GUI_Addons\TreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Menu.GUI_Addons.TestTreeVisual" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAACggAAAAAAAAAAAAAAAABAAAACACIAAAA=</HashCode>
+      <FileName>Assets\Menu\GUI_Addons\TreeView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assets.Resources.ShipParts.ShipControllerFactory">
+    <Position X="18.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipControllerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Resources.ShipParts.InsufficientStatExceptionException" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\ShipControllerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Resources.ShipParts.Stat">
+    <Position X="0.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAYAABAAAAAgAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Resources.ShipParts.StatModifier">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQAAAAAAAAAAAAABAAgAAAAAgAQAABAAAAAA=</HashCode>
+      <FileName>Assets\Resources\ShipParts\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Ship.Ship" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Ship\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Ship.ShipController">
+    <Position X="6" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAgAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Ship\ShipController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Ship.EngineController">
+    <Position X="1.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Ship\ShipController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Ship.HealthController">
+    <Position X="4" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Ship\ShipController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Ship.ShieldController">
+    <Position X="7" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Ship\ShipController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Ship.MainComputerController">
+    <Position X="10" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Ship\ShipController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.GameObject" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Assets.Menu.GUI_Addons.TreeViewNodeVisual" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACggAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\GUI_Addons\TreeView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.Menu.MenuObject" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\MenuObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Assets.Menu.GUI_Addons.childrenOutOfDateHandler" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Menu\GUI_Addons\TreeView.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
